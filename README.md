@@ -1,1 +1,6 @@
-# incredible-js
+# JS 2
+
+- Switch
+- Цикл for
+- Задачи
+- DOM
