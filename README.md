@@ -2,7 +2,7 @@
 
 ## Введение
 
-- Поставить **Prettier**
+- **Prettier**
 - Подсветка скобок с
   [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
 - [Справочник с поиском (англ)](https://devdocs.io/) 👨🏻‍💻
