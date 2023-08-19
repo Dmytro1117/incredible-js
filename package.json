@@ -1,11 +1,10 @@
 {
-  "name": "parcel-js",
+  "name": "js-18",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://dmytro1117.github.io/parcel-js/",
   "scripts": {
     "start": "parcel src/index.html --open",
-    "build": "parcel build src/*.html --public-url /parcel-js/"
+    "build": "parcel build src/*.html --public-url /js-18/"
   },
   "keywords": [],
   "author": "",
