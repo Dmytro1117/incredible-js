@@ -2,16 +2,15 @@
   "name": "js-19",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "dev": "parcel src/*.html",
+    "start": "parcel src/index.html --open",
     "build": "parcel build src/*.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4",
+    "parcel": "^2.9.3",
     "parcel-plugin-nuke-dist": "^1.0.1"
   },
   "dependencies": {
