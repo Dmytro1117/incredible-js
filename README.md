@@ -1,8 +1,8 @@
 # JS 21
 
-## [теорія)](https://docs.google.com/presentation/d/1YK1DogtkPz0zTo313uAeuvvNh1vFfbStCD-g39jGd5M/edit?usp=sharing)
+## [теорія](https://docs.google.com/presentation/d/1YK1DogtkPz0zTo313uAeuvvNh1vFfbStCD-g39jGd5M/edit?usp=sharing)
 
-- Видео:
+- Відео:
   - [The World Wide Web](https://youtu.be/guvsH5OFizE?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
   - [How The Internet Works](https://www.youtube.com/playlist?list=PLzdnOPI1iJNfMRZm5DDxco3UdsFegvuB7)
 
