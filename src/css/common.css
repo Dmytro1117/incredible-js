@@ -9,7 +9,6 @@ body {
     Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   line-height: 1.5;
   color: #2a2a2a;
-  text-align: center;
 }
 
 img {
@@ -26,10 +25,7 @@ img {
 }
 
 div {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  text-align: center;
 }
 
 .button.is-hidden {
