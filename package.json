@@ -1,0 +1,21 @@
+{
+  "name": "infinite-scroll",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/*.html --public-url /infinite-scroll/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "parcel-transformer-hbs": "^1.0.4",
+    "parcel-reporter-clean-dist": "^1.0.4"
+  },
+  "dependencies": {
+    "infinite-scroll": "^3.0.6"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
