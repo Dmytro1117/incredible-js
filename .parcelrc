@@ -10,5 +10,16 @@
     "*.hbs": [
       "parcel-transformer-hbs"
     ]
+  },
+  "optimizer": {
+    "js": {
+      "terserOptions": {
+        "mangle": {
+          "reserved": [
+            "os"
+          ]
+        }
+      }
+    }
   }
 }
