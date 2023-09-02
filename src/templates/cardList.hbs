@@ -1,0 +1,12 @@
+{{#each this}}
+  <li class='country-item'>
+    <button class='country-list__btn' data-index='{{@index}}'><img
+        src='{{flags.svg}}'
+        alt='{{name.official}}'
+        width='60'
+        height='30'
+      />
+      <span>{{name.official}}</span></button>
+
+  </li>
+{{/each}}

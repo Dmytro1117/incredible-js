@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countries</title>
+    <link rel="icon" href="./images/european-union.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./sass/index.scss" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="header">
+        <h1 class="title-head">Countries</h1>
+      </section>
+
+      <div class="loading-info">
+        <div class="js-loading-info invisible">
+          <div class="dot-spin"></div>
+        </div>
+      </div>
+
+      <input
+        class="input-name"
+        type="text"
+        id="search-box"
+        placeholder="Введіть країну"
+      />
+
+      <ul class="country-list"></ul>
+      <div class="country-info invisible"></div>
+      <div class="gallery"></div>
+      <div class="notify"></div>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+{{!-- {{#each this}} --}}
+{{#if coatOfArms.svg}}
+  <li class='country-info_item'>
+    <img src='{{coatOfArms.svg}}' alt='' width='100' />
+    <h2>Офіційний герб країни </h2>
+  </li>
+{{/if}}
+{{#if area}}
+  <li class='country-info_item'>
+    <h2 class='card__title'>Площа:</h2>
+    <p class='card__info'>{{area}} square meters</p>
+  </li>
+{{/if}}
+{{#if trafficDirection}}
+  <li class='country-info_item'>
+    <h2 class='card__title'>Напрямок дорожньго руху:</h2>
+    <p class='card__info'>{{trafficDirection}}</p>
+  </li>
+{{/if}}
+{{#if cca2}}
+  <li class='country-info_item'>
+    <h2 class='card__title'>Інтернет-домен:</h2>
+    <p class='card__info'>{{cca2}}</p>
+  </li>
+{{/if}}
+<li class='country-info_item'>
+  <h2 class='card__title'>Частина світу:</h2>
+  <p class='card__info'>{{continents}}</p>
+
+</li>
+
+{{!-- {{/each}} --}}

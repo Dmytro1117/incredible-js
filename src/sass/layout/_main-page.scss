@@ -1,0 +1,124 @@
+.country-list__btn {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-color: #f1d8d874;
+  border: none;
+  border-radius: 10px;
+}
+
+.title__pixabay {
+  width: 100%;
+  font-size: 28px;
+}
+
+.title-head {
+  display: block;
+  text-align: center;
+}
+
+.title-head :not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-name {
+  width: 400px;
+}
+
+.country-list {
+  margin: auto;
+}
+
+#search-box {
+  margin: auto;
+  font: inherit;
+  padding: 8px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+.country-info {
+  position: relative;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.card__title {
+  font-size: 15px;
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+  }
+}
+
+.card__flag {
+  width: 200px;
+  height: 150px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  background-size: cover;
+}
+
+.card__info {
+  font-size: 16px;
+  font-weight: 700;
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+  }
+}
+
+.card__button,
+.card__button2 {
+  background-color: #ffffff;
+  border: 1px solid rgb(209, 213, 219);
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: 'Inter var', ui-sans-serif, system-ui, -apple-system, system-ui,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  text-decoration: none #d1d5db solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.card__button:hover,
+.card__button2:hover {
+  background-color: rgb(249, 250, 251);
+}
+
+.card__button:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.card__button:focus-visible {
+  box-shadow: none;
+}
+
+.country-list__btn {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-color: #f1d8d874;
+  border: none;
+  border-radius: 10px;
+}

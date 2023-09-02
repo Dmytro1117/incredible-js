@@ -1,0 +1,20 @@
+{{#if other}}
+  <p class='title__pixabay'>Sorry, we do not find images`, but ... :)</p>
+{{else}}
+  <p class='title__pixabay'>Welcome to the Pixabay</p>
+{{/if}}
+
+{{#each hits}}
+
+  <div class='gallery__item'>
+    <a class='gallery__link' href='{{this.largeImageURL}}'>
+      <img
+        class='gallery__image'
+        src='{{this.previewURL}}'
+        data-source='{{this.largeImageURL}}'
+        alt='{{this.tags}}'
+      />
+    </a>
+
+  </div>
+{{/each}}
