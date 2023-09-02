@@ -1,10 +1,11 @@
 {
-  "name": "country",
+  "name": "incredible-js",
   "version": "2.0.0",
   "description": "",
+  "homepage": "https://dmytro1117.github.io/incredible-js/",
   "scripts": {
     "start": "parcel src/index.html --open --no-cache",
-    "build": "parcel build src/*.html --public-url /country/"
+    "build": "parcel build src/*.html --public-url /incredible-js/"
   },
   "keywords": [],
   "author": "",
