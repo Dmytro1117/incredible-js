@@ -1,5 +1,5 @@
-# MacOS attrs
-.DS_Store
+#Secret variables
+.env
 
 # Logs
 logs
