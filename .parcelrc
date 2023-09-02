@@ -11,7 +11,7 @@
       "parcel-transformer-hbs"
     ]
   },
-  "optimizer": {
+  "optimizers": {
     "js": {
       "terserOptions": {
         "mangle": {
