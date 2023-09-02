@@ -4,7 +4,7 @@
   "description": "",
   "homepage": "https://dmytro1117.github.io/incredible-js/",
   "scripts": {
-    "start": "parcel src/index.html --open --no-cache",
+    "start": "parcel src/index.html --open",
     "build": "parcel build src/*.html --public-url /incredible-js/"
   },
   "keywords": [],
