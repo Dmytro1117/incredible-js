@@ -12,7 +12,7 @@ import moreInfo from './templates/moreInfo.hbs';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.css';
 
-LIGHTBOX_PARAMS = {
+const LIGHTBOX_PARAMS = {
   captionsData: 'alt',
   captionDelay: 250,
   scrollZoom: false,
