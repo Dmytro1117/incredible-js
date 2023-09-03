@@ -2,10 +2,9 @@
   "name": "incredible-js",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://dmytro1117.github.io/incredible-js/",
   "scripts": {
     "start": "parcel src/index.html --open",
-    "build": "parcel build src/*.html --public-url /incredible-js/"
+    "build": "parcel build src/*.html"
   },
   "keywords": [],
   "author": "",
