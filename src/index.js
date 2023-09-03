@@ -12,8 +12,12 @@ import moreInfo from './templates/moreInfo.hbs';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.css';
 
-const lightbox = new SimpleLightbox('.gallery a', Params.LIGHTBOX_PARAMS);
-
+LIGHTBOX_PARAMS = {
+  captionsData: 'alt',
+  captionDelay: 250,
+  scrollZoom: false,
+};
+const lightbox = new SimpleLightbox('.gallery a', LIGHTBOX_PARAMS);
 Refs.inputEl.addEventListener(
   'input',
   lodashDebounce(handleInput, Params.DEBOUNCE_DELAY),
